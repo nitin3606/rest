@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <H1><em>Rajwada Restaurant Form</em></H1>
+  <form action="mailto:info@nitinamle3.com" method="post" enctype="text/plain">
+    <table>
+        <tr>
+            <td><label for="">Name</label>
+                <input type="text" placeholder="first" name="fristnamr">
+                <input type="text" placeholder="last" name="lastname">
+                <!-- <label for="phone">phone number:</label>
+                <input type="tel" >
+                <label for="">Enter email</label>
+                <input type="email"> -->
+            </td> 
+        </tr>
+    </table><br>
+    <table>
+        <tr>
+            <td>
+                <label for="phone">phone number:</label>
+                <input type="tel" name="phone" >
+                <label for="">Enter email</label>
+                <input type="email" name="mail"> </td>
+            </td>
+        </tr>
+    </table><br>
+    <!-- <label for="">Name</label>
+    <input type="text" placeholder="first">
+    <input type="text" placeholder="last">
+    <label for="phone">phone number:</label>
+    <input type="tel" > 
+    <label for="">Enter email</label>
+    <input type="email"> -->
+    <table>
+        <tr>
+            <td><label for="">Date</label>
+                <input type="date" name="date">
+                <label for="">Start Time </label>
+                <input type="time" name="in time">
+                <label for="">  End Time</label>
+                <input type="time" name="out time"></td>
+        </tr>
+    </table><br>
+    
+    <!-- <label for="">Date</label>
+    <input type="date">
+    <label for="">Start Time </label>
+    <input type="time">
+    <label for="">  End Time</label>
+    <input type="time"> -->
+    <p>Request Type</p>
+    <label for="requesttype">
+        <input type="radio" value="space" name="requesttype" id="requesttype1">Event Space Rental Only
+    </label><br>
+    <label for="requesttype">
+        <input type="radio" value="cetering" name="requesttype" id="requesttype2">Cetering Only
+    </label><br>
+    <label for="requesttype">
+        <input type="radio" value="cetering + Space" name="requesttype" id="requesttype3">Cetering Only + Event Space Rental Only
+    </label><br><br>
+    <label for="">Expected Number Of Geusts</label>
+    <input type="number" name="total guest">
+    <br><br>
+    <label for=""> Type Event(Bday Party,Reception,Board Dinner)</label>
+    <input type="text" name="Event type"><br><br>
+    <label for="">Any other Information you Would like to add </label>
+    <input type="text" name="info"><br>
+    <input type="submit">
+  </form>
+</body>
+</html>
